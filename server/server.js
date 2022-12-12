@@ -8,7 +8,7 @@ import productRouter from "./routes/bakery-productRoute.js";
 import posRouter from "./routes/pos-route.js";
 import cors from "cors";
 const app = express();
-const PORT = process.env.port;
+const PORT = process.env.PORT || 27015;
 
 connectDB();
 app.use(
