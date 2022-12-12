@@ -38,8 +38,5 @@
     "babel-preset-stage-0": "^6.24.1",
     "concurrently": "^7.5.0",
     "nodemon": "^2.0.20"
-  },
-  "engines": {
-    "yarn": "0.28.4"
   }
 }
